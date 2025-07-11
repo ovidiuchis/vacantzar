@@ -186,7 +186,7 @@ function renderTimeline() {
 // Get cost class based on cost per day
 function getCostClass(cost) {
   if (cost < 120) return "cost-low";
-  if (cost < 200) return "cost-medium";
+  if (cost < 220) return "cost-medium";
   return "cost-high";
 }
 
