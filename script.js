@@ -178,7 +178,7 @@ function renderTimeline() {
   });
 
   sortedHolidays.forEach((holiday, index) => {
-    const timelineItem = createTimelineItem(holiday);
+    const timelineItem = createTimelineItem(holiday, index);
     timelineItems.appendChild(timelineItem);
   });
 }
@@ -214,8 +214,8 @@ function getVacationTypeLabel(type) {
   }
 }
 
-// Create a timeline item
-function createTimelineItem(holiday) {
+// Create a timeline item with numbering
+function createTimelineItem(holiday, index) {
   const item = document.createElement("div");
   item.className = "timeline-item";
 
@@ -224,7 +224,7 @@ function createTimelineItem(holiday) {
   const typeLabel = getVacationTypeLabel(holiday.type);
 
   item.innerHTML = `
-        <div class="timeline-dot"></div>
+        <div class="timeline-dot timeline-number">${index + 1}</div>
         <div class="timeline-card">
             <div class="card-content">
                 <div class="card-main">
@@ -247,21 +247,18 @@ function createTimelineItem(holiday) {
                     </div>
                     
                     <div>
-                        <span class="duration-badge">
-                            ${holiday.duration} zile • ${holiday.month} ${holiday.year}
-                        </span>
+                        <span class="duration-badge">${holiday.duration} zile</span>
                     </div>
                 </div>
-                
                 <div class="card-aside">
-                    <div class="cost-badge ${costClass}">                     
-                        €${holiday.costPerDay}/zi
-                    </div>
+                    <span class="cost-badge ${costClass}">
+                        <span class="cost-icon">€</span>
+                        ${holiday.costPerDay}/zi
+                    </span>
                 </div>
             </div>
         </div>
     `;
-
   return item;
 }
 
