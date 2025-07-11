@@ -1,7 +1,6 @@
 [
   {
-    "id": 2,
-    "title": "Croatia camping",
+    "title": "Croatia - Split Camping",
     "duration": 8,
     "month": "Iulie",
     "year": 2025,
@@ -10,17 +9,15 @@
     "type": "family"
   },
   {
-    "id": 3,
-    "title": "Werk HD",
+    "title": "Werk Hunedoara",
     "duration": 2,
     "month": "Iunie",
     "year": 2025,
     "costPerDay": 125,
     "location": "Romania",
-    "type": "Family"
+    "type": "family"
   },
   {
-    "id": 4,
     "title": "Valea Draganului",
     "duration": 4,
     "month": "Mai",
@@ -30,8 +27,7 @@
     "type": "family"
   },
   {
-    "id": 5,
-    "title": "Malaga",
+    "title": "Malaga Getaway",
     "duration": 5,
     "month": "Martie",
     "year": 2025,
@@ -40,13 +36,165 @@
     "type": "couple"
   },
   {
-    "id": 6,
     "title": "Budapesta Aquaworld",
     "duration": 3,
     "month": "Februarie",
     "year": 2025,
     "costPerDay": 174,
-    "location": "Budapesta",
+    "location": "Ungaria",
     "type": "family"
+  },
+  {
+    "title": "Paris cu C.",
+    "duration": 3,
+    "month": "Martie",
+    "year": 2024,
+    "costPerDay": 482,
+    "location": "Franta",
+    "type": "couple"
+  },
+  {
+    "title": "Pairi Daiza & Bruxelles",
+    "duration": 5,
+    "month": "Iunie",
+    "year": 2024,
+    "costPerDay": 558,
+    "location": "Belgia",
+    "type": "family"
+  },
+  {
+    "title": "Legoland Germania & Viena",
+    "duration": 9,
+    "month": "Iulie",
+    "year": 2024,
+    "costPerDay": 337,
+    "location": "Germania",
+    "type": "family"
+  },
+  {
+    "title": "Nedei la piscina",
+    "duration": 2,
+    "month": "Ianuarie",
+    "year": 2024,
+    "costPerDay": 226,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "title": "Camping Trascau",
+    "duration": 3,
+    "month": "August",
+    "year": 2024,
+    "costPerDay": 35,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "title": "Bologna cu fratii",
+    "duration": 5,
+    "month": "Octombrie",
+    "year": 2023,
+    "costPerDay": 251,
+    "location": "Italia",
+    "type": "family"
+  },
+  {
+    "title": "Napoli",
+    "duration": 5,
+    "month": "Februarie",
+    "year": 2023,
+    "costPerDay": 372,
+    "location": "Italia",
+    "type": "family"
+  },
+  {
+    "title": "Austria - Castel cu biserica",
+    "duration": 12,
+    "month": "Iulie",
+    "year": 2023,
+    "costPerDay": 258,
+    "location": "Austria",
+    "type": "family"
+  },
+  {
+    "title": "Werk Hunedoara",
+    "duration": 3,
+    "month": "August",
+    "year": 2023,
+    "costPerDay": 266,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "title": "Nedei la piscina",
+    "duration": 2,
+    "month": "August",
+    "year": 2022,
+    "costPerDay": 199,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "title": "Budapesta Aquaworld",
+    "duration": 4,
+    "month": "Aprilie",
+    "year": 2022,
+    "costPerDay": 318,
+    "location": "Ungaria",
+    "type": "family"
+  },
+  {
+    "title": "Bari",
+    "duration": 5,
+    "month": "Iunie",
+    "year": 2022,
+    "costPerDay": 299,
+    "location": "Italia",
+    "type": "family"
+  },
+  {
+    "title": "Romania - tur cu familia",
+    "duration": 5,
+    "month": "August",
+    "year": 2022,
+    "costPerDay": 165,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "title": "Nisa",
+    "duration": 4,
+    "month": "Octombrie",
+    "year": 2022,
+    "costPerDay": 412,
+    "location": "Franta",
+    "type": "couple"
+  },
+  {
+    "title": "Mamaia",
+    "duration": 9,
+    "month": "Octombrie",
+    "year": 2021,
+    "costPerDay": 167,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "title": "Viena",
+    "duration": 4,
+    "month": "Iunie",
+    "year": 2021,
+    "costPerDay": 314,
+    "location": "Austria",
+    "type": "family"
+  },
+  {
+    "title": "Milano",
+    "duration": 3,
+    "month": "Octombrie",
+    "year": 2021,
+    "costPerDay": 398,
+    "location": "Italia",
+    "type": "couple"
   }
 ]
