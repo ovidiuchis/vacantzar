@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aventurile Noastre de Vacanță222</title>
+    <meta
+      name="description"
+      content="O călătorie prin destinațiile noastre preferate"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-title">Aventurile Noastre de Vacanță</h1>
+          <p class="header-subtitle">
+            O călătorie prin destinațiile noastre preferate
+          </p>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main">
+        <div class="container">
+          <div class="content-grid">
+            <!-- Timeline Section -->
+            <div class="timeline-section">
+              <div class="timeline-header">
+                <h2 class="timeline-title">Cronologia Vacanțelor</h2>
+
+                <div class="filter-container">
+                  <svg
+                    class="filter-icon"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="22,3 2,3 10,12.46 10,19 14,21 14,12.46 22,3"
+                    ></polygon>
+                  </svg>
+                  <select id="yearFilter" class="year-filter">
+                    <option value="all">Toate anii</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Loading State -->
+              <div id="loading" class="loading">Se încarcă...</div>
+
+              <!-- Timeline Container -->
+              <div
+                id="timelineContainer"
+                class="timeline-container"
+                style="display: none"
+              >
+                <!-- Timeline Line -->
+                <div class="timeline-line"></div>
+
+                <!-- Timeline Items will be inserted here -->
+                <div id="timelineItems" class="timeline-items"></div>
+
+                <!-- No Results Message -->
+                <div id="noResults" class="no-results" style="display: none">
+                  Nu există vacanțe pentru anul selectat.
+                </div>
+              </div>
+            </div>
+
+            <!-- Map Placeholder Section -->
+            <div class="map-section">
+              <div class="map-container">
+                <h2 class="map-title">
+                  <svg
+                    class="map-icon"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="1,6 1,22 8,18 16,22 23,18 23,2 16,6 8,2"
+                    ></polygon>
+                    <line x1="8" y1="2" x2="8" y2="18"></line>
+                    <line x1="16" y1="6" x2="16" y2="22"></line>
+                  </svg>
+                  Harta Vacanțelor
+                </h2>
+
+                <!-- Placeholder Map Area -->
+                <div class="map-placeholder">
+                  <div class="map-content">
+                    <svg
+                      class="map-pin-icon"
+                      width="48"
+                      height="48"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M20 10c0 6-10 12-10 12s-10-6-10-12a10 10 0 0 1 20 0Z"
+                      ></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <h3 class="map-placeholder-title">Hartă Interactivă</h3>
+                    <p class="map-placeholder-text">
+                      Funcție viitoare: Vizualizați toate destinațiile de
+                      vacanță pe o hartă interactivă a lumii
+                    </p>
+                  </div>
+
+                  <!-- Decorative Elements -->
+                  <div class="map-dot map-dot-1"></div>
+                  <div class="map-dot map-dot-2"></div>
+                  <div class="map-dot map-dot-3"></div>
+                  <div class="map-dot map-dot-4"></div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="stats-container">
+                  <div class="stat-item">
+                    <span class="stat-label">Total Destinații</span>
+                    <span class="stat-value" id="totalDestinations"
+                      >9 Țări</span
+                    >
+                  </div>
+
+                  <div class="stat-item">
+                    <span class="stat-label">Total Zile Călătorite</span>
+                    <span class="stat-value" id="totalDays">96 Zile</span>
+                  </div>
+
+                  <div class="stat-item">
+                    <span class="stat-label">Cost Mediu/Zi</span>
+                    <span class="stat-value" id="averageCost">€196</span>
+                  </div>
+                </div>
+
+                <!-- Future Feature Button -->
+                <button class="coming-soon-btn">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                  </svg>
+                  În Curând
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

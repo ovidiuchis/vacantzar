@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2,
+    "title": "Croatia camping",
+    "duration": 8,
+    "month": "Iulie",
+    "year": 2025,
+    "costPerDay": 267,
+    "location": "Croatia",
+    "type": "family"
+  },
+  {
+    "id": 3,
+    "title": "Werk HD",
+    "duration": 2,
+    "month": "Iunie",
+    "year": 2025,
+    "costPerDay": 125,
+    "location": "Romania",
+    "type": "Family"
+  },
+  {
+    "id": 4,
+    "title": "Valea Draganului",
+    "duration": 4,
+    "month": "Mai",
+    "year": 2025,
+    "costPerDay": 130,
+    "location": "Romania",
+    "type": "family"
+  },
+  {
+    "id": 5,
+    "title": "Malaga",
+    "duration": 5,
+    "month": "Martie",
+    "year": 2025,
+    "costPerDay": 302,
+    "location": "Spania",
+    "type": "couple"
+  },
+  {
+    "id": 6,
+    "title": "Budapesta Aquaworld",
+    "duration": 3,
+    "month": "Februarie",
+    "year": 2025,
+    "costPerDay": 174,
+    "location": "Budapesta",
+    "type": "family"
+  }
+]
