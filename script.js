@@ -238,9 +238,9 @@ function createTimelineItem(holiday) {
                     
                     <div class="card-details">
                         <div class="detail-item">
-                            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <svg class="detail-icon" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20 10c0 6-10 12-10 12s-10-6-10-12a10 10 0 0 1 20 0Z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
+                                <circle cx="10" cy="10" r="3"></circle>
                             </svg>
                             ${holiday.location}
                         </div>
