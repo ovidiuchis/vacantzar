@@ -1,4 +1,13 @@
 [
+    {
+    "title": "Viena - familia",
+    "duration": 6,
+    "month": "August",
+    "year": 2025,
+    "costPerDay": 270,
+    "location": "Austria",
+    "type": "family"
+  },
   {
     "title": "Croatia - Split Camping",
     "duration": 8,
