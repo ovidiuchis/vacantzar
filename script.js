@@ -226,50 +226,58 @@ function createTimelineItem(holiday, index) {
   item.innerHTML = `
         <div class="timeline-dot timeline-number">${index + 1}</div>
         <div class="timeline-card">
-            <div class="card-content">
-                <div class="card-main">
-                    <div class="card-header">
-                        <h3 class="card-title">${holiday.title}</h3>
-                        <div class="header-badges">
-                            <div class="month-badge">
-                                <svg class="month-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                                </svg>
-                                <span class="month-text">${holiday.month}</span>
-                            </div>
-                            <div class="vacation-type ${holiday.type}">
-                                <span class="type-icon">${typeIcon}</span>
-                                <span class="type-label">${typeLabel}</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-details">
-                        <div class="detail-item">
-                            <svg class="detail-icon" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20 10c0 6-10 12-10 12s-10-6-10-12a10 10 0 0 1 20 0Z"></path>
-                                <circle cx="10" cy="10" r="3"></circle>
-                            </svg>
-                            ${holiday.location}
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <span class="duration-badge">${
-                          holiday.duration
-                        } zile</span>
-                    </div>
-                </div>
-                <div class="card-aside">
-                    <span class="cost-badge ${costClass}">
-                        <span class="cost-icon">€</span>
-                        ${holiday.costPerDay}/zi
-                    </span>
-                </div>
-            </div>
+                             <div class="card-content">
+                     <div class="card-main">
+                         <div class="card-header">
+                             <h3 class="card-title">${holiday.title}</h3>
+                         </div>
+                         
+                         <div class="card-details">
+                             <div class="detail-item">
+                                 <span class="location-badge">
+                                     <svg class="location-icon" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="2">
+                                         <path d="M20 10c0 6-10 12-10 12s-10-6-10-12a10 10 0 0 1 20 0Z"></path>
+                                         <circle cx="10" cy="10" r="3"></circle>
+                                     </svg>
+                                     <span class="location-text">${
+                                       holiday.location
+                                     }</span>
+                                 </span>
+                             </div>
+                         </div>
+                         
+                         <div>
+                             <span class="duration-badge">${
+                               holiday.duration
+                             } zile</span>
+                         </div>
+                     </div>
+                     <div class="card-aside">
+                         <div class="badge-group">
+                             <div class="month-badge">
+                                 <svg class="month-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                     <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                     <line x1="16" y1="2" x2="16" y2="6"></line>
+                                     <line x1="8" y1="2" x2="8" y2="6"></line>
+                                     <line x1="3" y1="10" x2="21" y2="10"></line>
+                                 </svg>
+                                 <span class="month-text">${
+                                   holiday.month
+                                 }</span>
+                             </div>
+                             <div class="vacation-type ${holiday.type}">
+                                 <span class="type-icon">${typeIcon}</span>
+                                 <span class="type-label">${typeLabel}</span>
+                             </div>
+                             <span class="cost-badge ${costClass}">
+                                 <span class="cost-icon">€</span>
+                                 <span class="cost-amount">${
+                                   holiday.costPerDay
+                                 }/zi</span>
+                             </span>
+                         </div>
+                     </div>
+                 </div>
         </div>
     `;
   return item;
