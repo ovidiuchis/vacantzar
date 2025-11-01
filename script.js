@@ -154,7 +154,7 @@ function renderTimeline() {
     noResults.style.display = "none";
   }
 
-  // Sort holidays by year and month
+  // Sort holidays by year and month (newest first)
   const monthOrder = {
     Ianuarie: 1,
     Februarie: 2,
@@ -172,13 +172,15 @@ function renderTimeline() {
 
   const sortedHolidays = [...filteredHolidays].sort((a, b) => {
     if (a.year !== b.year) {
-      return a.year - b.year;
+      return b.year - a.year; // Reversed: newest year first
     }
-    return monthOrder[a.month] - monthOrder[b.month];
+    return monthOrder[b.month] - monthOrder[a.month]; // Reversed: latest month first
   });
 
   sortedHolidays.forEach((holiday, index) => {
-    const timelineItem = createTimelineItem(holiday, index);
+    // Reverse the numbering so newest vacation is #1
+    const displayNumber = sortedHolidays.length - index;
+    const timelineItem = createTimelineItem(holiday, displayNumber - 1);
     timelineItems.appendChild(timelineItem);
   });
 }
