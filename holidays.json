@@ -6,7 +6,13 @@
     "year": 2025,
     "costPerDay": 434,
     "location": "Ungaria",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Mövenpick Hotel & Resort",
+        "url": "https://movenpick.accor.com/en/europe/hungary/szandtod/balaland-resort-lake-balaton.html"
+      }
+    ]
   },
   {
     "title": "Viena - familia",
@@ -15,7 +21,13 @@
     "year": 2025,
     "costPerDay": 270,
     "location": "Austria",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Numa Stays",
+        "url": "https://numastays.com/locations/austria/vienna/mariahilf/terra"
+      }
+    ]
   },
   {
     "title": "Croatia - Split Camping",
@@ -24,7 +36,17 @@
     "year": 2025,
     "costPerDay": 267,
     "location": "Croatia",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Camping Stobrec Split",
+        "url": "https://www.campingsplit.com"
+      },
+      {
+        "title": "Istvan Farm & Petting Zoo",
+        "url": "https://istvanhotel.hu"
+      }
+    ]
   },
   {
     "title": "Werk Hunedoara",
@@ -33,7 +55,13 @@
     "year": 2025,
     "costPerDay": 125,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Werk Hotel & Spa",
+        "url": "https://hotelwerk.ro/ro/"
+      }
+    ]
   },
   {
     "title": "Valea Draganului",
@@ -42,7 +70,13 @@
     "year": 2025,
     "costPerDay": 130,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Casa de vacanţă Rehoboth",
+        "url": "https://fundatiaemanuel.ro/"
+      }
+    ]
   },
   {
     "title": "Malaga Getaway",
@@ -51,7 +85,13 @@
     "year": 2025,
     "costPerDay": 302,
     "location": "Spania",
-    "type": "couple"
+    "type": "couple",
+    "links": [
+      {
+        "title": "Caminito Del Rey",
+        "url": "https://www.caminitodelrey.info/en"
+      }
+    ]
   },
   {
     "title": "Budapesta Aquaworld",
@@ -60,7 +100,17 @@
     "year": 2025,
     "costPerDay": 174,
     "location": "Ungaria",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Aquaworld Resort Budapest",
+        "url": "https://www.aquaworldresort.hu/en/"
+      },
+      {
+        "title": "Mazeltov - iconic city garden",
+        "url": "https://mazeltov.hu/"
+      }
+    ]
   },
   {
     "title": "Paris cu C.",
@@ -69,7 +119,8 @@
     "year": 2024,
     "costPerDay": 482,
     "location": "Franta",
-    "type": "couple"
+    "type": "couple",
+    "links": []
   },
   {
     "title": "Pairi Daiza & Bruxelles",
@@ -78,7 +129,17 @@
     "year": 2024,
     "costPerDay": 558,
     "location": "Belgia",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Pairi Daiza Zoo Resort",
+        "url": "https://www.pairidaiza.eu/en/"
+      },
+      {
+        "title": "Nhow Brussels Bloom",
+        "url": "https://www.nhow-hotels.com/en/nhow-brussels-bloom"
+      }
+    ]
   },
   {
     "title": "Legoland Germania & Viena",
@@ -87,7 +148,21 @@
     "year": 2024,
     "costPerDay": 337,
     "location": "Germania",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Legoland Deutschland",
+        "url": "https://www.legoland.de/en/"
+      },
+      {
+        "title": "Terransen Camping Traisen ",
+        "url": "https://www.camping-traisen.at/en/"
+      },
+      {
+        "title": "Camping Pilsensee",
+        "url": "https://camping-pilsensee.de/"
+      }
+    ]
   },
   {
     "title": "Nedei la piscina",
@@ -96,7 +171,13 @@
     "year": 2024,
     "costPerDay": 226,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "Nedei Hotel & Spa",
+        "url": "https://www.nedeihotel.ro/"
+      }
+    ]
   },
   {
     "title": "Camping Trascau",
@@ -105,7 +186,13 @@
     "year": 2024,
     "costPerDay": 35,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": [
+      {
+        "title": "De-i Musai Camping Trascau",
+        "url": "https://deimusai.ro/"
+      }
+    ]
   },
   {
     "title": "Bologna",
@@ -114,7 +201,8 @@
     "year": 2023,
     "costPerDay": 251,
     "location": "Italia",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Napoli",
@@ -123,7 +211,8 @@
     "year": 2023,
     "costPerDay": 372,
     "location": "Italia",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Austria - Castel cu biserica",
@@ -132,7 +221,8 @@
     "year": 2023,
     "costPerDay": 258,
     "location": "Austria",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Werk Hunedoara",
@@ -141,7 +231,8 @@
     "year": 2023,
     "costPerDay": 266,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Nedei la piscina",
@@ -150,7 +241,8 @@
     "year": 2022,
     "costPerDay": 199,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Budapesta Aquaworld",
@@ -159,7 +251,8 @@
     "year": 2022,
     "costPerDay": 318,
     "location": "Ungaria",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Bari",
@@ -168,7 +261,8 @@
     "year": 2022,
     "costPerDay": 299,
     "location": "Italia",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Romania - tur cu familia",
@@ -177,7 +271,8 @@
     "year": 2022,
     "costPerDay": 165,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Nisa",
@@ -186,7 +281,8 @@
     "year": 2022,
     "costPerDay": 412,
     "location": "Franta",
-    "type": "couple"
+    "type": "couple",
+    "links": []
   },
   {
     "title": "Mamaia",
@@ -195,7 +291,8 @@
     "year": 2021,
     "costPerDay": 167,
     "location": "Romania",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Viena",
@@ -204,7 +301,8 @@
     "year": 2021,
     "costPerDay": 314,
     "location": "Austria",
-    "type": "family"
+    "type": "family",
+    "links": []
   },
   {
     "title": "Milano",
@@ -213,6 +311,7 @@
     "year": 2021,
     "costPerDay": 398,
     "location": "Italia",
-    "type": "couple"
+    "type": "couple",
+    "links": []
   }
 ]
