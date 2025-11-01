@@ -148,7 +148,16 @@
     "costPerDay": 482,
     "location": "Franta",
     "type": "couple",
-    "links": []
+    "links": [
+      {
+        "title": "Louvre Museum",
+        "url": "https://www.louvre.fr/en"
+      },
+      {
+        "title": "Seine river cruise",
+        "url": "https://www.bateauxparisiens.com/"
+      }
+    ]
   },
   {
     "title": "Pairi Daiza & Bruxelles",
@@ -263,7 +272,16 @@
     "costPerDay": 372,
     "location": "Italia",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "La Funicolare Centrale di Napoli",
+        "url": "https://www.visitcampania.info/en/attrazioni/funicular-central/"
+      },
+      {
+        "title": "Sit arheologic Pompeii",
+        "url": "https://pompeiisites.org/en/"
+      }
+    ]
   },
   {
     "title": "Austria - Castel cu biserica",
@@ -342,7 +360,16 @@
     "costPerDay": 299,
     "location": "Italia",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "Alberobello village",
+        "url": "https://www.alberobello.com/en"
+      },
+      {
+        "title": "Urban Chic Home",
+        "url": "https://www.booking.com/hotel/it/urban-chic-home-2.ro.html"
+      }
+    ]
   },
   {
     "title": "Romania - tur cu familia",
@@ -391,7 +418,16 @@
     "costPerDay": 314,
     "location": "Austria",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "Zoo Vienna",
+        "url": "https://www.zoovienna.at/en/"
+      },
+      {
+        "title": "Mercure Grand Hotel Biedermeier",
+        "url": "https://all.accor.com/ssr/app/mercure/rates/5357/index.en.shtml?destination=vienna-austria"
+      }
+    ]
   },
   {
     "title": "Milano",
@@ -402,6 +438,19 @@
     "costPerDay": 398,
     "location": "Italia",
     "type": "couple",
-    "links": []
+    "links": [
+      {
+        "title": "Vertical Milan | UNA Experiences Hotel",
+        "url": "https://www.unaitalianhospitality.com/it/soggiorni/milano-verticale-una-esperienze"
+      },
+      {
+        "title": "Duomo di Milano",
+        "url": "https://www.duomomilano.it/"
+      },
+      {
+        "title": "Tur lacul Como",
+        "url": "https://www.getyourguide.com/lake-como-l63/"
+      }
+    ]
   }
 ]

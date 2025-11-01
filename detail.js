@@ -234,9 +234,7 @@ function initializeDetailMap(vacation) {
       </h3>
       <p style="margin: 0; color: #6b7280; font-size: 14px;">
         ${vacation.month} ${vacation.year} • ${vacation.duration} zile<br>
-        €${vacation.costPerDay}/zi • €${
-        vacation.costPerDay * vacation.duration
-      } total
+        €${vacation.costPerDay}/zi
       </p>
     </div>
   `
