@@ -1,6 +1,7 @@
 [
   {
     "title": "Movenpick BalaLand",
+    "stub": "25MOV",
     "duration": 3,
     "month": "Octombrie",
     "year": 2025,
@@ -16,6 +17,7 @@
   },
   {
     "title": "Viena - familia",
+    "stub": "25VIE",
     "duration": 6,
     "month": "August",
     "year": 2025,
@@ -26,11 +28,20 @@
       {
         "title": "Numa Stays",
         "url": "https://numastays.com/locations/austria/vienna/mariahilf/terra"
+      },
+      {
+        "title": "Haus des Meeres - Aqua Terra Zoo",
+        "url": "https://www.haus-des-meeres.at/en"
+      },
+      {
+        "title": "Haus Der Musik - Museum of Sound",
+        "url": "https://www.hdm.at/"
       }
     ]
   },
   {
     "title": "Croatia - Split Camping",
+    "stub": "25CRO",
     "duration": 8,
     "month": "Iulie",
     "year": 2025,
@@ -45,11 +56,16 @@
       {
         "title": "Istvan Farm & Petting Zoo",
         "url": "https://istvanhotel.hu"
+      },
+      {
+        "title": "Hotel Zonar Zagreb",
+        "url": "https://www.maistra.com/properties/zonar-zagreb/"
       }
     ]
   },
   {
     "title": "Werk Hunedoara",
+    "stub": "25WRK",
     "duration": 2,
     "month": "Iunie",
     "year": 2025,
@@ -65,6 +81,7 @@
   },
   {
     "title": "Valea Draganului",
+    "stub": "25VAL",
     "duration": 4,
     "month": "Mai",
     "year": 2025,
@@ -80,6 +97,7 @@
   },
   {
     "title": "Malaga Getaway",
+    "stub": "25MAL",
     "duration": 5,
     "month": "Martie",
     "year": 2025,
@@ -90,11 +108,20 @@
       {
         "title": "Caminito Del Rey",
         "url": "https://www.caminitodelrey.info/en"
+      },
+      {
+        "title": "Museo Picasso Málaga",
+        "url": "https://www.museopicassomalaga.org/en"
+      },
+      {
+        "title": "Home Art Apartments",
+        "url": "https://www.welcomergroup.com/es/"
       }
     ]
   },
   {
     "title": "Budapesta Aquaworld",
+    "stub": "25BUD",
     "duration": 3,
     "month": "Februarie",
     "year": 2025,
@@ -114,6 +141,7 @@
   },
   {
     "title": "Paris cu C.",
+    "stub": "24PAR",
     "duration": 3,
     "month": "Martie",
     "year": 2024,
@@ -124,6 +152,7 @@
   },
   {
     "title": "Pairi Daiza & Bruxelles",
+    "stub": "24PAI",
     "duration": 5,
     "month": "Iunie",
     "year": 2024,
@@ -143,6 +172,7 @@
   },
   {
     "title": "Legoland Germania & Viena",
+    "stub": "24LEG",
     "duration": 9,
     "month": "Iulie",
     "year": 2024,
@@ -166,6 +196,7 @@
   },
   {
     "title": "Nedei la piscina",
+    "stub": "24NED",
     "duration": 2,
     "month": "Ianuarie",
     "year": 2024,
@@ -181,6 +212,7 @@
   },
   {
     "title": "Camping Trascau",
+    "stub": "24TRA",
     "duration": 3,
     "month": "August",
     "year": 2024,
@@ -196,16 +228,35 @@
   },
   {
     "title": "Bologna",
+    "stub": "23BOL",
     "duration": 5,
     "month": "Octombrie",
     "year": 2023,
     "costPerDay": 251,
     "location": "Italia",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "My Suites Home",
+        "url": "https://msh.bo.it/"
+      },
+      {
+        "title": "Torre Prendiparte",
+        "url": "https://www.torreprendiparte.it/en/"
+      },
+      {
+        "title": "Enzo Ferrari Museum - Modena",
+        "url": "https://www.ferrari.com/en-EN/museums/enzo-ferrari-modena"
+      },
+      {
+        "title": "Duomo di Firenze",
+        "url": "https://duomo.firenze.it/en/discover/cathedral"
+      }
+    ]
   },
   {
     "title": "Napoli",
+    "stub": "23NAP",
     "duration": 5,
     "month": "Februarie",
     "year": 2023,
@@ -216,46 +267,75 @@
   },
   {
     "title": "Austria - Castel cu biserica",
+    "stub": "23AUS",
     "duration": 12,
     "month": "Iulie",
     "year": 2023,
     "costPerDay": 258,
     "location": "Austria",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "Christian Conference Center in ​Millstatt",
+        "url": "https://www.schlossheroldeck.com/"
+      },
+      {
+        "title": "HeyMi Appartments Viena",
+        "url": "https://www.heymi.at/en/home/"
+      }
+    ]
   },
   {
     "title": "Werk Hunedoara",
+    "stub": "23WRK",
     "duration": 3,
     "month": "August",
     "year": 2023,
     "costPerDay": 266,
     "location": "Romania",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "Werk Hotel & Spa",
+        "url": "https://hotelwerk.ro/ro/"
+      }
+    ]
   },
   {
     "title": "Nedei la piscina",
+    "stub": "22NED",
     "duration": 2,
     "month": "August",
     "year": 2022,
     "costPerDay": 199,
     "location": "Romania",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "Nedei Hotel & Spa",
+        "url": "https://www.nedeihotel.ro/"
+      }
+    ]
   },
   {
     "title": "Budapesta Aquaworld",
+    "stub": "22BUD",
     "duration": 4,
     "month": "Aprilie",
     "year": 2022,
     "costPerDay": 318,
     "location": "Ungaria",
     "type": "family",
-    "links": []
+    "links": [
+      {
+        "title": "Aquaworld Resort Budapest",
+        "url": "https://www.aquaworldresort.hu/en/"
+      }
+    ]
   },
   {
     "title": "Bari",
+    "stub": "22BAR",
     "duration": 5,
     "month": "Iunie",
     "year": 2022,
@@ -266,6 +346,7 @@
   },
   {
     "title": "Romania - tur cu familia",
+    "stub": "22ROM",
     "duration": 5,
     "month": "August",
     "year": 2022,
@@ -276,16 +357,23 @@
   },
   {
     "title": "Nisa",
+    "stub": "22NIS",
     "duration": 4,
     "month": "Octombrie",
     "year": 2022,
     "costPerDay": 412,
     "location": "Franta",
     "type": "couple",
-    "links": []
+    "links": [
+      {
+        "title": "Hôtel Apollinaire Nice",
+        "url": "https://www.apollinaire-nice.com/"
+      }
+    ]
   },
   {
     "title": "Mamaia",
+    "stub": "21MAM",
     "duration": 9,
     "month": "Octombrie",
     "year": 2021,
@@ -296,6 +384,7 @@
   },
   {
     "title": "Viena",
+    "stub": "21VIE",
     "duration": 4,
     "month": "Iunie",
     "year": 2021,
@@ -306,6 +395,7 @@
   },
   {
     "title": "Milano",
+    "stub": "21MIL",
     "duration": 3,
     "month": "Octombrie",
     "year": 2021,

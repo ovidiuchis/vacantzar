@@ -266,7 +266,7 @@ function createTimelineItem(holiday, index) {
 
   item.innerHTML = `
         <div class="timeline-dot timeline-number">${index + 1}</div>
-        <div class="timeline-card">
+        <div class="timeline-card" data-stub="${holiday.stub}">
                              <div class="card-content">
                      <div class="card-main">
                          <div class="card-header">
@@ -287,10 +287,19 @@ function createTimelineItem(holiday, index) {
                              </div>
                          </div>
                          
-                         <div>
+                         <div class="card-actions">
                              <span class="duration-badge">${
                                holiday.duration
                              } zile</span>
+                             <button class="copy-link-btn" data-stub="${
+                               holiday.stub
+                             }" title="Copiază link">
+                                 <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                     <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                     <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                 </svg>
+                                 <span class="copy-text">Copiază link</span>
+                             </button>
                          </div>
                          
                          ${linksHTML}
@@ -323,6 +332,28 @@ function createTimelineItem(holiday, index) {
                  </div>
         </div>
     `;
+
+  // Add event listener for copy link button
+  const copyBtn = item.querySelector(".copy-link-btn");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      copyVacationLink(holiday.stub, this);
+    });
+  }
+
+  // Make card clickable to navigate to detail page
+  const card = item.querySelector(".timeline-card");
+  if (card) {
+    card.style.cursor = "pointer";
+    card.addEventListener("click", function (e) {
+      // Don't navigate if clicking on a button or link
+      if (e.target.closest("button") || e.target.closest("a")) {
+        return;
+      }
+      window.location.href = `detail.html#${holiday.stub}`;
+    });
+  }
   return item;
 }
 
@@ -542,4 +573,34 @@ function updateStats() {
     if (totalDays) totalDays.textContent = "0 Zile";
     if (averageCost) averageCost.textContent = "€0";
   }
+}
+
+// Copy vacation link to clipboard
+function copyVacationLink(stub, buttonElement) {
+  const baseUrl =
+    window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, "/");
+  const vacationUrl = `${baseUrl}${stub}`;
+
+  navigator.clipboard
+    .writeText(vacationUrl)
+    .then(() => {
+      // Change button text temporarily
+      const textSpan = buttonElement.querySelector(".copy-text");
+      const originalText = textSpan.textContent;
+      textSpan.textContent = "Link copiat!";
+      buttonElement.classList.add("copied");
+
+      setTimeout(() => {
+        textSpan.textContent = originalText;
+        buttonElement.classList.remove("copied");
+      }, 2000);
+    })
+    .catch((err) => {
+      console.error("Failed to copy link:", err);
+      const textSpan = buttonElement.querySelector(".copy-text");
+      textSpan.textContent = "Eroare!";
+      setTimeout(() => {
+        textSpan.textContent = "Copiază link";
+      }, 2000);
+    });
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecționare...</title>
+    <script>
+      // GitHub Pages redirects all 404s here
+      // We'll extract the path and redirect to detail.html with the stub
+      (function () {
+        const path = window.location.pathname;
+        const stub = path.split("/").pop();
+
+        // If there's a stub (not empty and not index.html), redirect to detail page
+        if (
+          stub &&
+          stub !== "index.html" &&
+          stub !== "404.html" &&
+          stub !== ""
+        ) {
+          window.location.replace(
+            window.location.origin +
+              window.location.pathname.replace(/\/[^\/]*$/, "/detail.html") +
+              "#" +
+              stub
+          );
+        } else {
+          // Otherwise redirect to home
+          window.location.replace(
+            window.location.origin +
+              window.location.pathname.replace(/\/[^\/]*$/, "/index.html")
+          );
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecționare...</p>
+  </body>
+</html>
