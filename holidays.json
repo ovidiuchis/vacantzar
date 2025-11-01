@@ -1,5 +1,14 @@
 [
-    {
+  {
+    "title": "Movenpick Balaton",
+    "duration": 3,
+    "month": "Octombrie",
+    "year": 2025,
+    "costPerDay": 434,
+    "location": "Ungaria",
+    "type": "family"
+  },
+  {
     "title": "Viena - familia",
     "duration": 6,
     "month": "August",
