@@ -90,9 +90,14 @@ async function loadVacationDetails() {
 function renderVacationDetails(vacation) {
   // Update title and subtitle
   document.getElementById("detailTitle").textContent = vacation.title;
-  document.getElementById(
-    "detailSubtitle"
-  ).textContent = `${vacation.month} ${vacation.year} • ${vacation.location}`;
+
+  // Create enhanced subtitle with separators
+  const subtitleElement = document.getElementById("detailSubtitle");
+  subtitleElement.innerHTML = `
+    <span>${vacation.month} ${vacation.year}</span>
+    <span class="subtitle-separator"></span>
+    <span>${vacation.location}</span>
+  `;
 
   // Update back button
   const backButton = document.getElementById("backButton");
@@ -124,24 +129,28 @@ function renderInfoGrid(vacation) {
 
   infoGrid.innerHTML = `
     <div class="info-item">
+      <span class="info-label">Descriere</span>
+      <span class="info-value">${vacation.title}</span>
+    </div>
+    <div class="info-item">
       <span class="info-label">Destinație</span>
       <span class="info-value">${vacation.location}</span>
     </div>
     <div class="info-item">
-      <span class="info-label">Durată</span>
-      <span class="info-value">${vacation.duration} zile</span>
+      <span class="info-label">Tip călătorie</span>
+      <span class="info-value">${typeIcon} ${typeLabel}</span>
     </div>
     <div class="info-item">
       <span class="info-label">Perioadă</span>
       <span class="info-value">${vacation.month} ${vacation.year}</span>
     </div>
     <div class="info-item">
-      <span class="info-label">Cost pe zi</span>
-      <span class="info-value">€${vacation.costPerDay}</span>
+      <span class="info-label">Durată</span>
+      <span class="info-value">${vacation.duration} zile</span>
     </div>
     <div class="info-item">
-      <span class="info-label">Tip călătorie</span>
-      <span class="info-value">${typeIcon} ${typeLabel}</span>
+      <span class="info-label">Cost pe zi</span>
+      <span class="info-value">€${vacation.costPerDay}</span>
     </div>
   `;
 }
@@ -266,7 +275,8 @@ function getVacationTypeLabel(type) {
 }
 
 function getCostClass(cost) {
-  if (cost < 120) return "cost-low";
-  if (cost < 220) return "cost-medium";
+  // Updated thresholds: <200 => green, <310 => yellow, >=310 => red
+  if (cost < 200) return "cost-low";
+  if (cost < 310) return "cost-medium";
   return "cost-high";
 }
