@@ -1,5 +1,15 @@
 [
   {
+    "title": "Alicante & Benidorm",
+    "stub": "26BEN",
+    "duration": 4,
+    "month": "Februarie",
+    "year": 2026,
+    "costPerDay": 333,
+    "location": "Spania",
+    "type": "family"
+  },
+  {
     "title": "Movenpick BalaLand",
     "stub": "25MOV",
     "duration": 3,
